@@ -1,0 +1,2 @@
+agregar deposito y precio en visitas
+agregar visitas_detalle

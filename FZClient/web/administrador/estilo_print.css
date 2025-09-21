@@ -1,0 +1,37 @@
+
+a.menu{
+	visibility:hidden; 
+	display: none; 
+}
+.factura{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+}
+.tit_f_g{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.tit_f{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.tit_f_c{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.txt_f_g{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+.txt_f{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+.txt_f_c{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+}

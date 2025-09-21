@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'DINEngschriftStd';
+	src: url('../fonts/DINEngschriftStd.eot');
+	src: url('../fonts/DINEngschriftStd.eot?#iefix') format("embedded-opentype"), url('../fonts/DINEngschriftStd.ttf') format("truetype"), 
+		url('../fonts/DINEngschriftStd.otf') format("opentype"), 
+		url('../fonts/DINEngschriftStd.woff') format("woff"), 
+		url('../fonts/dinengschriftstd.svg#DINEngschriftStd') format("svg");
+	font-variant: normal;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: 'FilosofiaOT-Regular';
+	src: url('../fonts/FilosofiaOT-Regular.ttf') format("truetype"), 
+		url('../fonts/FilosofiaOT-Regular.otf') format("opentype"), 
+		url('../fonts/FilosofiaOT-Regular.woff') format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'FilosofiaOT-Italic';
+	src: url('../fonts/FilosofiaOT-Italic.ttf') format("truetype"), 
+		url('../fonts/FilosofiaOT-Italic.otf') format("opentype"), 
+		url('../fonts/FilosofiaOT-Italic.woff') format("woff");
+	font-style: italic;
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	src: url('../fonts/MyriadPro-Regular.ttf') format("truetype"), 
+		url('../fonts/MyriadPro-Regular.otf') format("opentype"), 
+		url('../fonts/MyriadPro-Regular.woff') format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'FilosofiaOT-Bold';
+	src: url('../fonts/FilosofiaOT-Bold.ttf') format("truetype"), 
+		url('../fonts/FilosofiaOT-Bold.otf') format("opentype"), 
+		url('../fonts/FilosofiaOT-Bold.woff') format("woff");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'DINPro-Regular';
+	src: url('../fonts/DINPro-Regular.ttf') format("truetype"), 
+		url('../fonts/DINPro-Regular.otf') format("opentype"), 
+		url('../fonts/DINPro-Regular.woff') format("woff");
+	font-style: normal;
+	font-weight: normal;
+}

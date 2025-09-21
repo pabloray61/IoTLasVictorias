@@ -1,0 +1,109 @@
+body {
+	margin: 0px;
+	SCROLLBAR-HIGHLIGHT-COLOR: #E1E2E0;
+	SCROLLBAR-SHADOW-COLOR: #E1E2E0;
+	SCROLLBAR-3DLIGHT-COLOR: #E1E2E0;
+	SCROLLBAR-ARROW-COLOR: #00086E;
+	SCROLLBAR-TRACK-COLOR: #EEEEEE;
+	SCROLLBAR-FACE-COLOR: #CCCCCC;
+	SCROLLBAR-DARKSHADOW-COLOR: #E1E2E0;
+}
+
+@media print {
+.oculto {display:none}
+}
+.bg{
+	background: url(images/fdo_sub_web.jpg) 0% 100% no-repeat #f9f2e2;
+}
+
+/* TEXT */
+.titulos {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+    color: #a39a72;
+}
+.sub-titulos {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	font-weight:Normal;
+    color: #000100;
+}
+.textos {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #000100;
+	/*text-align:justify;*/
+}
+.textos_c {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #000100;
+	/*text-align:justify;*/
+	font-weight: bold;	
+}
+
+.cart_t {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #000100;
+	/*text-align:justify;*/
+}
+.cart_st {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	color:#600;
+	font-weight:bold;
+	/*text-align:justify;*/
+}
+.cart_d {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #000100;
+	/*text-align:justify;*/
+}
+.cart_p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight:bold;
+	color: #000100;
+}
+.cart_r {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #000100;
+}
+
+/* VERDE O COLORADO */
+.send_ok {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+    color: #A5BC00;
+}
+.send_no {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+    color: #FF0000;
+}
+/* INPUT */
+.input { 
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #666666; 
+	border: 1px #9C9A9C solid; 
+	background-color: #ffffff; 
+}
+/* LINK */
+a:link, a:visited, a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000100;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #8e9295;
+}

@@ -1,0 +1,250 @@
+body {
+	margin-left:0;
+	margin-top:0;
+	margin-bottom:0;
+	margin-right:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.error{
+font-size:12px;
+color:#FF0000;
+font-weight:bold;
+}
+.bien{
+font-size:12px;
+color:#33CC00;
+font-weight:bold;
+}
+.stock{
+font-size:9px;
+color:#33CC00;
+font-weight:bold;
+}
+.stock-no{
+font-size:9px;
+color:#FF0000;
+font-weight:bold;
+text-decoration:line-through;
+}
+.encabezado{
+font-size:12px;
+font-weight:bold;
+}
+
+.dataBold{
+font-size:11px;
+font-weight:bold;
+}
+.dataBold_c{
+font-size:9px;
+font-weight:bold;
+}
+.data{
+font-size:11px;
+}
+.titulo{
+font-size:14px;
+font-weight:900;
+}
+.menu {
+	padding: 0px;
+	color: #6f5b67;
+	text-transform:uppercase;
+	font-size:9px;
+	text-align: center;
+}
+.textToolBar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+.pie {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #999;
+	background-image: url(images/gris_footer.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.send_ok {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+    color: #A5BC00;
+}
+.send_no {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+    color: #FF0000;
+}
+/* ----------------- ESTILO DE LOS FORMULARIOS ----------------- */
+td.c1 {
+	background-color:#dbe1e1; 
+	font-size:12px; font-weight: bold; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none; 
+	color:#000000;
+}
+td.c2 {
+	background-color:#c6cbcb;  
+	font-size:12px; 
+	font-weight: bold; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none; 
+	color:#000000;
+}
+td.t { 
+	background-color:#333333; 
+	font-size:12px; 
+	font-weight: bold; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none; 
+	color:#FFFFFF;
+}
+td.t2 { 
+	background-color:#808080; 
+	font-size:12px; 
+	font-weight: bold; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none; 
+	color:#FFFFFF;
+}
+td.cv {
+	background-color: #BEFA9A; 
+	font-size:12px; font-weight: bold; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none; 
+	color:#000000;
+}
+input.txt{ 
+	background-color:#cfd2e1; 
+	font-size:12px; 
+	font-weight: bold; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none; 
+	color: #000000; 
+}
+input.{ 
+	font-size:12px; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none;
+	/* text-align:center; */
+	color: #000000; 
+}
+input.r{ 
+	font-size:12px; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none;
+	text-align: right;
+	color: #000000; 
+}
+
+select{ 
+	background-color:#cfd2e1; 
+	font-size:12px; 
+	font-weight: bold; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none; 
+	color: #000000; 
+}
+textarea{ 
+	background-color:#cfd2e1; 
+	font-size:12px; 
+	font-weight: bold; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-decoration: none; 
+	color: #000000; 
+}
+.texto_submenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+    color: #0b55c4;
+	text-decoration:none
+}
+.texto_lista {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+    color: #666666;
+}
+.texto_ventas{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+    color:#333;
+}
+/* ----------------- LINK ----------------- */
+a:link, a:visited, a:active{
+	font-size: 12px;
+	text-decoration: none;
+	color:#000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+a.menu{
+	color: #000000;
+	font-size: 12px;
+	text-decoration: none;
+	text-indent:5;
+}
+a.menu:hover {
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #333333;
+}   /* mouse over link */
+a.link_t:link, a.link_t:visited, a.link_t:active {
+	font-size: 12px;
+	text-decoration: none;
+	color:#FFFFFF
+}
+a.link_t:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+a.fecha:link, a.fecha:visited, a.fecha:active {
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+a.fecha:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+a.textToolBarLink:link, a.textToolBarLink:visited, a.textToolBarLink:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+}
+a.textToolBarLink:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+a.link_ventas:link, a.link_ventas:visited, a.link_ventas:active{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+    color:#333;
+}
+a.link_ventas:hover {
+	text-decoration: none;
+	color:#666;
+}
+/* ----------------- ENCABEZADO ----------------- */
+.expand3 {
+	background-image:    url(images/headers/expand3.gif);
+	background-repeat: repeat-x;
+}
+.header-left3 {
+	background-image:    url(images/headers/header-left3.gif);
+	background-repeat: no-repeat;
+}
+.header-right3 {
+	background-image:    url(images/headers/header-right3.gif);
+	background-repeat: no-repeat;
+}

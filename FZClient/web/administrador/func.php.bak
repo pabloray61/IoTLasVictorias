@@ -1,0 +1,125 @@
+<?
+/// imprime la fecha de hoy
+function hoy(){
+return date("Y") ."-".date("m") . "-".date("d");
+}
+
+//Esta funcion sirve para armar el combo de las fechas
+function comboFecha ($str_fecha = "", $counter = ""){
+
+
+	$arr = split("-", $str_fecha);
+	$a = trim($arr[0]); $m = trim($arr[1]); $d = trim($arr[2]);
+	
+	
+	$meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+	$hoy=getdate();
+	for ($h = 1950; $h <= $hoy['year']+1; $h++){
+		$ano[]=$h;
+	}
+	//Armo el select del dia
+	echo "<SELECT name='dia".$counter."'>";
+	echo "<option value='0'>dd</option>";
+	for ( $i=1; $i<=31; $i++) {
+		$c = $i < 10 ? "0".$i:$i;
+		echo "<option value='$c' ".(($c == $d) ? "SELECTED":"").">$c</option> ";
+	}
+	echo "</SELECT>";
+	
+	//armo el select del mes
+	echo "<SELECT name='mes".$counter."'>";
+	echo "<option value='0'>mm</option>";
+	for ( $i=1; $i<= count($meses); $i++) {
+		$c = $i < 10 ? "0".$i:$i;
+		echo "<option value='$c' ". (($c == $m) ? "SELECTED":""). ">".$meses[$i-1]."</option>/r";
+	}
+	echo "</SELECT>";
+	
+	//armo el select del año
+	echo "<SELECT name='ano".$counter."'>";
+	echo "<option value='0001'>aa</option>";
+	for ( $i=0; $i< count($ano); $i++) {
+		echo "<option value='".$ano[$i]."' ".($ano[$i] == $a ? "SELECTED":"").">".$ano[$i]."</option> ";
+	}
+	echo "</SELECT>";
+}
+
+
+
+
+//------------------------------------------------
+
+//convierte la fecha de yyyy-mm-dd a dd-mm-yyyy
+function formatoFecha($str_fecha){
+	$arr = split("-", $str_fecha);
+	$a = trim($arr[0]);
+	$m = trim($arr[1]);
+	$d = trim($arr[2]);
+	echo $d . "-" . $m . "-" . $a; 
+
+}
+//convierte la fecha de yyyy-mm-dd a dd-mm-yy
+function formatoFecha2($str_fecha){
+	$arr = split("-", $str_fecha);
+	$a = substr(trim($arr[0]),2,2);
+	$m = trim($arr[1]);
+	$d = trim($arr[2]);
+	echo $d . "-" . $m . "-" . $a; 
+
+}
+
+
+
+
+
+
+
+// Devuelve un array con los archivos que hay dentro de la que le pasaste ($carpeta_base)
+function listarArchivos($carpeta_base, $ext){
+	$carpetas = array();
+	if ($dir = opendir($carpeta_base)){
+		while ( $file = readdir( $dir )){
+			if ( $file != '.' and $file != '..' and getExtension($file)==$ext ){
+				array_push($carpetas, $file);
+			//echo ($carpetas . $file);
+			}
+		}
+	} else {
+		echo "<b>listarArchivos()</b> => no hay nada en esta carpeta <BR>";
+	}
+	return $carpetas; //devuelve el arreglo con la data
+}
+
+//Devuelve las carpetas dentro del archivo path.
+function listar_dir($path){
+$carpetas=array();
+$dir=opendir($path);
+
+while ( $a = readdir( $dir ) ){
+
+	if(is_dir($path . $a) and $a!='.' and $a!='..'){
+		array_push($carpetas,$a);
+
+	}
+}
+
+return $carpetas;
+}
+
+function getExtension ($file){
+	$tmp = split("\.", $file);
+	if ( count($tmp)>1 ) return strtolower($tmp[count($tmp)-1]);
+	else return "";
+}
+
+function getMes ($indx){
+	$meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+	return $meses[$indx];
+}
+
+
+function getLastM ($url){
+	$r = filemtime ($url);
+	return $url . "?" . date("Y-m-d-G:i:s", $r);
+}
+?>

@@ -1,0 +1,1393 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	position: relative;
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+}
+
+	#content-inicio{
+		position: fixed;
+		display: block;
+		float: left;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.75);
+		z-index: 500;
+	}
+
+	#content-inicio div{
+		position: absolute;
+		display: block;
+		float: left;
+		width: 840px;
+		height: 595px;
+		top: 50%;
+		left: 50%;
+		margin: -297.5px 0 0 -420px;
+		background-image: url(../img/inicio.png);
+		background-color: rgb(241, 235, 220);
+		text-align: center;
+	}
+
+	#content-inicio div h6{
+		position: relative;
+		display:block;
+		font-size: 26px;
+		font-family: 'FilosofiaOT-Regular';
+		font-weight: normal;
+		font-style: normal;
+		color: #6C6365;
+		padding-top: 100px;
+		letter-spacing: 1px;
+	}
+
+	#content-inicio div a{
+		position: relative;
+		display: block;
+		width: 190px;
+		height: 45px;
+		background-image: url(../img/ingresar.png);
+		margin: 75px 0 90px 340px;
+		font-family: 'DINPro-Regular';
+		text-decoration: none;
+		text-align: center;
+		line-height: 50px;
+		color: #F1EBDD;
+		font-size: 21px;
+	}
+
+	#content-inicio div a:hover{
+		color: gray;
+	}
+
+	#content-inicio div img{
+		position: relative;
+		display: inline-block;
+		margin-bottom: 20px
+	}
+	#content-inicio div p {
+		color: #6C6365;
+		font-family: 'FilosofiaOT-Regular';
+	}
+
+#header {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 960px;
+	height: 85px;
+	border-top: 5px solid #5F0F05;
+	background: url('../img/header.png');
+	background-repeat: no-repeat;
+	border-bottom: 1px dotted black;
+}
+
+#header-acordes {
+	position: relative;
+	
+	width: 102px;
+	height: 46px;
+	margin: 18px 0 0px 310px;
+	cursor: pointer;
+
+}
+#header-facebook {
+	position: relative;
+	display: inline;
+	float: right;
+	width: 104px;
+	margin: -7px 40px 0 15px;
+	cursor:pointer;
+}
+#header-userpanel {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 100px;
+	height: 45px;
+	margin: 15px 0 0 15px;
+	
+	font-size: 17.2px;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	color: #7A7767;
+	background: transparent;
+	cursor: pointer;
+}
+
+#header-userpanel a {
+	position: relative;
+	display: block;
+	float: right;
+	margin-top: 4px;
+	font-size: 14px;
+	font-family: 'FilosofiaOT-Italic';
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: #B3AD92;
+}
+
+#nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 960px;
+	height: 45px;
+	text-align: center;
+}
+
+#nav-inner{
+	display: inline-block;
+	width: auto;
+	height: 45px;
+}
+
+#nav-inner ul {
+	position: relative;
+	display: block;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#nav-inner ul li {
+	position: relative;
+	display: inline;
+	margin: 0 24px;
+	letter-spacing: 2px;
+}
+
+#nav-inner ul li a {
+	text-decoration: none;
+	font-family: 'DINEngschriftStd',Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: #7D7869;
+}
+
+#nav-inner ul li a:hover {
+	color: #5F0F05;
+	cursor: pointer;
+}
+
+#content {
+	position: relative;
+	display: block;
+	float: left;
+	width: 960px;
+	height: auto;
+	box-shadow: 0 5px 10px 0 lightgray;
+	background: url('../img/content.png') repeat;
+}
+
+.content-up-banner {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 350px;
+	margin: 30px;
+	box-shadow: 0 5px 10px 0 gray;
+}
+
+.content-up-ribbon-right {
+	position: absolute;
+	display: block;
+	float: left;
+	width: 70px;
+	height: 90px;
+	top: 75px;
+	right: -40px;
+	background: url('../img/content-ribbon-right.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+
+/*---------- HOME ----------*/
+/*----- ----- ----- ----- -----*/
+#content-home-banner {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 500px;
+	margin: 30px 30px 0;
+	padding-bottom: 30px;
+	border-bottom: 1px dotted black;
+}
+
+#content-home-banner img {
+	position: absolute;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 500px;
+	box-shadow: 0 5px 10px 0 gray;
+}
+
+#content-home-smalls-img {
+	position: absolute;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+#content-home-banner-text p {
+	position: relative;
+	display: block;
+	float: left;
+	width: 335px;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 530px;
+	color: white;
+}
+
+#ribbon-left {
+	position: absolute;
+	display: block;
+	float: left;
+	width: 50px;
+	height: 75px;
+	margin: 75px 0 0 -20px;
+}
+
+#ribbon-right {
+	position: absolute;
+	display: block;
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 90px 0 0 930px;
+}
+
+#content-home-smalls {
+	position: relative;
+	display: block;
+	float: left;
+	width: 930px;
+	height: 200px;
+	margin: 30px;
+}
+
+.content-home-smalls-img {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 280px;
+	height: 200px;
+	margin-right: 30px;
+	line-height:18px;
+	
+}
+
+.content-home-smalls-img p {
+	display: table-cell;
+	width: 280px;
+	height: 200px;
+	vertical-align: middle;
+	font-family: 'FilosofiaOT-Italic';
+	font-weight: normal;
+	font-style: italic;
+	font-size: 15px;
+	color: gray;
+}
+
+
+/*---------- NUESTRA CAVA ----------*/
+/*----- ----- ----- ----- -----*/
+#content-nuestracava-home-title {
+	position: relative;
+	display: block;
+	float: left;
+	width: 200px;
+	height: 85px;
+	left: 50%;
+	margin-left: -100px;
+	background: url('../img/nuestracava-home-title.png');
+}
+
+#content-nuestracava-home-text {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin: 30px 0;
+}
+
+#content-nuestracava-home-text p {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	width: 710px;
+	height: auto;
+	margin: 0 auto;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+	color: #786E69;
+	line-height:18px;
+}
+
+#content-nuestracava-home-text-italic p {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	width: 710px;
+	height: auto;
+	margin: 0 auto;
+	font-family: 'FilosofiaOT-Italic';
+	font-weight: normal;
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+	color: #786E69;
+	line-height:18px;
+}
+
+#content-nuestracava-home-vinosespumantes {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: auto;
+	margin: 0 30px 60px;
+}
+
+.content-nuestracava-vinosespumantes-nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 30px;
+	margin: 0 30px;
+}
+
+.content-nuestracava-vinosespumantes-nav ul {
+	position: relative;
+	float: left;
+	left: 28.5%;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.content-nuestracava-vinosespumantes-nav ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	right: 50%;
+	margin: 0 5px;
+}
+
+.content-nuestracava-vinosespumantes-nav ul li a {
+	text-decoration: none;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: gray;
+}
+
+.content-nuestracava-vinosespumantes-nav ul li a:hover {
+	color: #5F0F05;
+	cursor: pointer;
+}
+
+/*---------- VINOS ----------*/
+#content-nuestracava-home-vinos {
+	position: relative;
+	display: block;
+	float: left;
+	width: 440px;
+	height: auto;
+}
+
+.subtitle {
+	position: relative;
+	display: block;
+	float: left;
+	width: 440px;
+	height: 25px;
+	padding-top: 5px;
+	background: #311028;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 2px;
+	font-size: 22px;
+	color: #EDEBD4;
+	text-align: center;
+	margin: 0;
+	text-shadow: 1px 1px black;
+	font-weight:lighter;
+	box-shadow: 2px 2px lightgray;
+}
+
+.subtitle2 {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 33px;
+	padding-top: 2px;
+	background: #311028;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-size: 22px;
+	color: #EDEBD4;
+	margin: 0;
+	text-shadow: 1px 1px black;
+	font-weight:lighter;
+	box-shadow: 2px 2px lightgray;
+	text-align: center;
+}
+
+.subtitle2-centrado{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	height: 33px;
+
+}
+
+.subtitle2-centrado h6{
+	position: relative;
+	display: inline;
+	float: left;
+	margin:5px 5px 0 0;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.subtitle2-centrado p{
+	position: relative;
+	display: block;
+	float: left;
+	font-size: 18px;
+	margin: 7.5px 0 0 0;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#content-nuestracava-home-vinos-nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 440px;
+	height: 35px;
+}
+
+#content-nuestracava-home-vinos-nav ul {
+	position: relative;
+	float: left;
+	left: 50%;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#content-nuestracava-home-vinos-nav ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	right: 50%;
+	margin: 0 5px;
+}
+
+#content-nuestracava-home-vinos-nav ul li a {
+	text-decoration: none;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: #320F28;
+}
+
+#content-nuestracava-home-vinos-nav ul li a:hover {
+	color: #AFA53C;
+	cursor: pointer;
+}
+
+#content-nuestracava-home-vinos p {
+	text-align: center;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+/*---------- ESPUMANTES ----------*/
+#content-nuestracava-home-espumantes {
+	position: relative;
+	display: block;
+	float: right;
+	width: 440px;
+	height: auto;
+}
+
+#content-nuestracava-home-espumantes-title {
+	position: relative;
+	display: block;
+	float: left;
+	width: 440px;
+	height: 35px;
+	background: url('../img/nuestracava-home-espumantes-title.png');
+}
+
+#content-nuestracava-home-espumantes-nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 440px;
+	height: 35px;
+}
+
+#content-nuestracava-home-espumantes-nav ul {
+	position: relative;
+	float: left;
+	left: 50%;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#content-nuestracava-home-espumantes-nav ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	right: 50%;
+	margin: 0 5px;
+}
+
+#content-nuestracava-home-espumantes-nav ul li a {
+	text-decoration: none;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: #320F28;
+}
+
+#content-nuestracava-home-espumantes-nav ul li a:hover {
+	color: #AFA53C;
+	cursor: pointer;
+}
+
+#content-nuestracava-home-espumantes p {
+	text-align: center;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.content-nuestracava-title {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 35px;
+	margin: 0 30px;
+}
+
+.content-nuestracava-nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 35px;
+	margin: 0 30px;
+}
+
+.content-nuestracava-nav ul {
+	position: relative;
+	float: left;
+	left: 50%;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.content-nuestracava-nav ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	right: 50%;
+	margin: 0 5px;
+}
+
+.content-nuestracava-nav ul li a {
+	text-decoration: none;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: #320F28;
+}
+
+.content-nuestracava-nav ul li a:hover {
+	color: #AFA53C;
+	cursor: pointer;
+}
+
+.content-nuestracava-text p {
+	position: relative;
+	display: block;
+	float: left;
+	width: 800px;
+	height: auto;
+	margin: 5px 70px 0 70px;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+	color: #786E69;
+	line-height:18px;
+}
+
+.content-nuestracava-content {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: auto;
+	margin: 0 30px 30px;
+}
+
+
+							/*---------- LIFESTYLE ----------*/
+							/*----- ----- ----- ----- -----*/
+							#content-lifestyle-left {
+								position: relative;
+								display: inline;
+								float: left;
+								width: 440px;
+								height: 1070px;
+								margin: 30px 20px 30px 30px;
+								background-color: rgba(255, 255, 255, 0.6);
+								color: #756D68;
+							}
+
+							.content-lifestyle-left-titulo{
+								font-family: 'DINEngschriftStd';
+								font-style: normal;
+								font-weight: normal;
+								font-size: 20px;
+								color: #AEA83B;
+								margin: 30px 30px 30px 30px;
+								width: 380px;
+								text-align: center;
+							}
+
+							#content-lifestyle-left p{
+								position: relative;
+								display: inline;
+								float: left;
+								width: 380px;
+								height: auto;
+								margin: 0px 30px 30px 30px;
+								font-family: 'FilosofiaOT-Regular';
+								font-weight: normal;
+								font-style: normal;
+								font-size: 15px;
+								line-height: 17px;
+							}
+
+							#content-lifestyle-right {
+								position: relative;
+								display: block;
+								float: left;
+								width: 440px;
+								height: 750px;
+								margin: 30px 0px 30px 0;
+							}
+
+							.content-lifestyle-right-1 {
+								position: relative;
+								display: block;
+								float: left;
+								width: 440px;
+								height: 300px;
+							}
+
+							.borde-abajo{
+								position: relative;
+								display: block;
+								float: left;
+								padding-bottom: 10px;
+								border-bottom: 1px dotted;
+								margin-bottom: 10px;
+							}
+
+							#content-lifestyle-right h3{
+								color: #321129;
+								font-size: 25px;
+								font-family: 'DINEngschriftStd';
+								font-style: normal;
+								font-weight: normal;
+								text-align: center;
+								margin-bottom: 0;
+								letter-spacing: 2px;
+							}
+
+							#content-lifestyle-right p{
+								color: #6A6857;
+								font-size: 16px;
+								font-family: 'DINEngschriftStd';
+								font-style: normal;
+								font-weight: normal;
+								margin-bottom: 1px;
+								margin-top: 2.5px;
+
+							}
+
+/*---------- VENTAS ----------*/
+/*----- ----- ----- ----- -----*/
+#content-ventas-home-puntoscatalogo {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: auto;
+	margin: 0 30px 60px;
+}
+
+#content-ventas-home-puntoscatalogo-titles {
+	position: relative;
+	display: block;
+	float: left;
+	width: 440px;
+	height: 30px;
+}
+
+#content-ventas-home-puntoscatalogo p {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+}
+
+#content-ventas-home-puntos {
+	position: relative;
+	display: block;
+	float: left;
+	width: 440px;
+	height: auto;
+}
+
+#content-ventas-home-catalogo {
+	position: relative;
+	display: block;
+	float: right;
+	width: 440px;
+	height: auto;
+}
+
+.content-ventas-home-puntoscatalogo-nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 440px;
+	height: 35px;
+}
+
+.content-ventas-home-puntoscatalogo-nav ul {
+	position: relative;
+	float: left;
+	left: 50%;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.content-ventas-home-puntoscatalogo-nav ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	right: 50%;
+	margin: 0 5px;
+}
+
+.content-ventas-home-puntoscatalogo-nav ul li a {
+	text-decoration: none;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: #320F28;
+}
+
+.content-ventas-home-puntoscatalogo-nav ul li a:hover {
+	color: #AFA53C;
+	cursor: pointer;
+}
+
+.content-ventas-puntoscatalogo-nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 30px;
+	margin: 0 30px;
+}
+
+.content-ventas-puntoscatalogo-nav ul {
+	position: relative;
+	float: left;
+	left: 36%;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.content-ventas-puntoscatalogo-nav ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	right: 50%;
+	margin: 0 5px;
+}
+
+.content-ventas-puntoscatalogo-nav ul li a {
+	text-decoration: none;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: gray;
+}
+
+.content-ventas-puntoscatalogo-nav ul li a:hover {
+	cursor: pointer;
+}
+
+.content-ventas-puntoscatalogo-title {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 35px;
+	margin: 0 30px;
+}
+
+.content-ventas-puntoscatalogo-nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: 35px;
+	margin: 0 30px;
+}
+
+.content-ventas-puntoscatalogo-nav ul {
+	position: relative;
+	float: left;
+	left: 50%;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.content-ventas-puntoscatalogo-nav ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	right: 50%;
+	margin: 0 5px;
+}
+
+.content-ventas-puntoscatalogo-nav ul li a {
+	text-decoration: none;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: gray;
+}
+
+.content-ventas-puntoscatalogo-nav ul li a:hover {
+	cursor: pointer;
+}
+
+.content-ventas-puntoscatalogo-content {
+	position: relative;
+	display: block;
+	float: left;
+	width: 900px;
+	height: auto;
+	margin: 0 30px 30px;
+	padding-top: 15px;
+}
+
+
+/*---------- TUPUNGATO ----------*/
+/*----- ----- ----- ----- -----*/
+#content-tupungato-title {
+	position: relative;
+	display: block;
+	float: left;
+	width: 250px;
+	height: 85px;
+	margin: 0 355px 15px;
+}
+
+#content-tupungato-text {
+	position: relative;
+	display: block;
+	float: left;
+	width: 740px;
+	height: auto;
+	margin: 0 110px 60px;
+	font-family: 'FilosofiaOT-Italic';
+	font-weight: normal;
+	font-style: italic;
+	font-size: 17px;
+	text-align: center;
+	color: #756D68;
+}
+
+#content-tupungato-bottom-left {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 440px;
+	height: auto;
+	margin: 0 20px 30px 30px;
+}
+
+#content-tupungato-bottom-left-1a {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 210px;
+	height: 300px;
+	margin-right: 20px;
+}
+
+#content-tupungato-bottom-left-1b {
+	position: relative;
+	display: block;
+	float: left;
+	width: 210px;
+	height: 300px;
+}
+
+#content-tupungato-bottom-left-2 {
+	position: relative;
+	display: block;
+	float: left;
+	width: 440px;
+	height: 265px;
+	margin-top: 20px;
+}
+#content-tupungato-bottom{
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 170px;
+	margin: 0 20px 0 20px;
+}
+
+#content-tupungato-bottom-right {
+	position: relative;
+	display: block;
+	float: right;
+	width: 440px;
+	height: auto;
+	margin: 0 30px 30px 0;
+}
+
+#content-tupungato-bottom-right p {
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: #181818;
+}
+
+#content-tupungato-bottom-right a{
+	display: block;
+	text-decoration: none;
+	color: #A49E3B;
+	font-size: 18px;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 20px;
+}
+
+#content-tupungato-bottom-right a:hover{
+	text-decoration: underline;
+	color: #A49E3B;
+	font-size: 18px;
+}
+
+#content-tupungato-bottom-right-img{
+	position: relative;
+	display: inline;
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin-right: 25px;
+}
+
+/*---------- CONTACTO ----------*/
+#content-contacto-left {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 525px;
+	height: auto;
+	margin: 0 30px 30px;
+}
+
+#content-contacto-left label {
+	position: relative;
+	display: inline;
+	float: right;
+	line-height: 35px;
+	margin-right: 10px;
+	font-family: 'DINEngschriftStd', Verdana, Arial, Helvetica, sans-serif;;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: #AFA53C;
+}
+
+#content-contacto-left input {
+	position: relative;
+	display: block;
+	float: right;
+	width: 380px;
+	height: 25px;
+	margin-bottom: 10px;
+	border: 1px dotted gray;
+}
+
+#content-contacto-left textarea {
+	position: relative;
+	display: block;
+	float: right;
+	width: 378px;
+	height: 200px;
+	border: 1px dotted gray;
+	resize: none;
+}
+
+#content-contacto-right {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 345px;
+	height: 322px;
+	margin: 0 0 30px;
+	border-top: 1px dotted gray;
+	border-bottom: 1px dotted gray;
+}
+
+#content-contacto-right p {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+	color: #756D68;
+}
+
+.content-contacto-right-bold{
+	font-family: 'FilosofiaOT-Regular',Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+	color: #5F0F05;
+}
+
+#content-contacto-right input {
+	position: absolute;
+	display: block;
+	float: left;
+	width: 125px;
+	height: 35px;
+	line-height: 38px;
+	bottom: 20px;
+	font-family: 'DINEngschriftStd',Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #3E3A37;
+	border: none;
+	cursor: pointer;
+	background: #AEA83B;
+}
+
+/*---------- REGISTRO ----------*/
+/*----- ----- ----- ----- -----*/
+#content-reg-left {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 525px;
+	height: auto;
+	margin: 0 30px 30px;
+}
+
+#content-reg-left label {
+	position: relative;
+	display: inline;
+	float: right;
+	line-height: 35px;
+	margin-right: 10px;
+	font-family: 'DINEngschriftStd',Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: #AFA53C;
+}
+
+#content-reg-left input {
+	position: relative;
+	display: block;
+	float: right;
+	width: 380px;
+	height: 25px;
+	margin-bottom: 10px;
+	border: 1px dotted gray;
+}
+
+#content-reg-right {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 345px;
+	height: 105px;
+	margin: 0 0 30px;
+	border-top: 1px dotted gray;
+	border-bottom: 1px dotted gray;
+}
+
+#content-reg-right input {
+	position: absolute;
+	display: block;
+	float: left;
+	width: 125px;
+	height: 35px;
+	line-height: 38px;
+	bottom: 20px;
+	font-family: 'DINEngschriftStd',Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #3E3A37;
+	border: none;
+	cursor: pointer;
+	background: #AEA83B;
+}
+
+#footer {
+	position: relative;
+	display: block;
+	float: left;
+	width: 960px;
+	height: 50px;
+}
+
+#footer p {
+	text-align: center;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 30px;
+	color: #6E6E5F;
+}
+
+/*--selectedvineyards--*/
+
+#content-nuestracava-vinos-selectedvineyards{
+	position: relative;
+	display: block;
+	float: left;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+.content-nuestracava-vinos-tipos{
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 900px;
+	height: 205px;
+	margin-left: 7px;
+}
+
+.borde{
+	position: relative;
+	display: inline;
+	float: left;
+	width: 280px;
+	height: 190px;
+	margin-top: 5px;
+	margin-right: 5px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	text-align: center;
+}
+
+.sinfonia{
+	position: relative;
+	display: block;
+	margin: -3px auto 0;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: normal;
+	font-style: normal;
+	color: #746C67;
+	font-size: 14px;
+}
+
+.titulo{
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	color: #793966;
+	font-size: 22px;
+	letter-spacing: 4px;
+	margin-top: 5px;
+}
+
+.parrafo{
+	font-family: 'FilosofiaOT-Italic';
+	font-weight: normal;
+	font-style: italic;
+	font-size: 16px;
+	color: #746C67;
+	margin: 5px 6px 5px 6px;
+	line-height: 20px;
+}
+.nombre{
+	position: relative;
+	display: block;
+	margin: -3px auto 0;
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: bold;
+	font-style: normal;
+	color: #793966;
+	font-size: 14px;
+}
+/*  ------------ CATALOGO ONLINE ------------ */
+.p-titulo{
+	font-family: 'FilosofiaOT-Regular';
+	font-weight: bold;
+	font-style: normal;
+	color:#333;
+	font-size: 18px;
+}
+.p-variedad{
+	position: relative;
+	display: block;
+	margin: -3px auto 0;
+	font-family: 'DINEngschriftStd';
+	font-weight: bold;
+	font-style: normal;
+	color: #793966;
+	font-size: 14px;
+}
+.p-presentacion{
+	font-family: 'FilosofiaOT-Italic';
+	font-weight: normal;
+	font-style: italic;
+	font-size: 16px;
+	color: #746C67;
+	margin: 5px 6px 5px 6px;
+	line-height: 20px;
+}
+.p-precio{
+	font-family: 'FilosofiaOT-Italic';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+	color: #746C67;
+	margin: 5px 6px 5px 6px;
+	line-height: 20px;
+}
+a.link {
+	text-decoration: none;
+	font-family: 'DINEngschriftStd';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: #793966;
+	cursor: pointer;
+}
+/*  ------------ END ------------ */
+.content-nuestracava-vinos-tipos a{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #793966;
+	font-family: 'FilosofiaOT-Bold';
+	font-weight: bold;
+	font-style: normal;
+}
+
+.content-nuestracava-vinos-tipos a:hover{
+	color: #AEA83B;
+}
+
+#content-nuestracava-espumantes-extraburt{
+	position: relative;
+	display: block;
+	float: left;
+}
